@@ -1,0 +1,14 @@
+langchain
+langchain-chroma
+transformers
+torch
+sentence-transformers
+openai
+yt-dlp
+whisper
+rich
+langchain_text_splitters
+langchain_core
+numpy
+openai
+dotenv
