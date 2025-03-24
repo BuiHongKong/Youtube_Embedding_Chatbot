@@ -26,3 +26,27 @@ Prompt engineering with injected context.
 
 Full RAG loop implementation: ingest → embed → store → retrieve → augment → answer.
 
+# Models Used
+
+Embeddings: sentence-transformers/all-MiniLM-L6-v2
+
+Transcription: openai/whisper (or can switch to local whisper)
+
+LLM: deepseek-chat via DeepSeek API
+
+Vector Store: ChromaDB
+
+# Features
+
+Fully local embeddings and vector store
+
+Fast similarity search with Chroma
+
+DeepSeek LLM for intelligent responses
+
+Persistent chat history in terminal session
+
+Modular Python scripts
+
+
+
