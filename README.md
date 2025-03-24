@@ -48,5 +48,27 @@ Persistent chat history in terminal session
 
 Modular Python scripts
 
+# Modules
+
+embedding_YoutubeVideoExplanation.py
+
+Handles ingestion, transcription, summarization, chunking, and embedding into ChromaDB.
+
+Key Steps:
+
+Downloads YouTube audio using yt_dlp
+
+Transcribes using whisper
+
+Explains transcript with DeepSeek
+
+Splits long text into chunks
+
+Embeds chunks using HuggingFace sentence-transformer
+
+Stores chunks into ChromaDB with metadata
+
+Result: Your Embedded_Database/ folder now contains all processed chunks and their semantic vectors.
+
 
 
