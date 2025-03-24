@@ -50,7 +50,7 @@ Modular Python scripts
 
 # Modules
 
-1.embedding_YoutubeVideoExplanation.py
+# 1.embedding_YoutubeVideoExplanation.py
 
 Handles ingestion, transcription, summarization, chunking, and embedding into ChromaDB.
 
@@ -70,7 +70,7 @@ Stores chunks into ChromaDB with metadata
 
 Result: Your Embedded_Database/ folder now contains all processed chunks and their semantic vectors.
 
-2.inpsect_vector_database.py
+# 2.inpsect_vector_database.py
 
 Allows inspection of what's inside ChromaDB.
 
@@ -88,7 +88,7 @@ Embedding shapes
 
 Useful for checking if embeddings were stored correctly.
 
-3.chatbot_with_RAG.py
+# 3.chatbot_with_RAG.py
 
 Runs a terminal chatbot using:
 
